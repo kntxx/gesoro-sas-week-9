@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   registerButtonEvent('btnSpeed', () => {
-    const speed = calculateSpeed(100, 2);
+    const speed = calculateSpeed(170, 2);
     output.textContent = `Current speed: ${speed} km/h`;
   });
 });
